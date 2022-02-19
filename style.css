@@ -1,0 +1,102 @@
+body {
+    background-color: #f46b95;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.mainContainer {
+    background-color: #2b3361;
+    width: 1000px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+header {
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 10px;
+}
+main{
+    display: flex;
+    margin: 10px 50px;
+}
+.firstSection {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px 50px 20px 15px;
+    padding: 5px;
+}
+.secondSection {
+    text-align: left;
+    width: 30%;
+    margin: 20px 15px 20px 50px;
+    padding: 5px;
+    font-size: 12px;
+}
+.homeButtons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.active {
+    color: #fa69ae;
+    font-weight: bold;
+}
+h2 {
+    color: #fa69ae;
+    font-size: 20px;
+}
+.inputH2 {
+    padding: 0 10px;
+    margin: 0;
+}
+.letUsKnow {
+    font-size: 11px;
+    padding: 0 10px 25px 10px;
+}
+.inputSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactInfo {
+    border-radius: 5px;
+    background-color: #4f5c88;
+    padding: 10px;
+    margin: 6px;
+    flex-grow: 2;
+    border: none;
+}
+::placeholder {
+    color: white;
+    font-size: 15px;
+}
+button {
+    background-color: #f46b95;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px 8px;
+}
+.addressH2 {
+    padding: 0;
+    margin: 0;
+}
+.socialLinks {
+    display: flex;
+    justify-content:flex-start;
+}
+.linkTo {
+    padding: 0 10px 0 0;
+}
